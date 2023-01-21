@@ -34,7 +34,7 @@ body {
 .sun{
   width: 700px;
   position: absolute;
-  left: 800px;
+  left: 700px;
   top: 100px;
   z-index: 0;
   -webkit-animation: linear 8s sun1 infinite;
@@ -45,7 +45,7 @@ body {
 
 div{
   position: absolute;
-  left: 800px;
+  left: 700px;
   top: 190px;
   -webkit-animation: linear 5s div1 infinite;
   -ms-animation: linear 5s div1 infinite;
@@ -54,27 +54,27 @@ div{
 }
 @-webkit-keyframes div1{
     24%{z-index: 0;}
-    25%{left: 1300px;z-index: 2;}
+    25%{left: 1200px;z-index: 2;}
     74%{z-index: 3;}
-    75%{ left: 500px; z-index: 0;}
+    75%{ left: 400px; z-index: 0;}
   }
   @-ms-keyframes div1{
     24%{z-index: 0;}
-    25%{left: 1300px;z-index: 2;}
+    25%{left: 1200px;z-index: 2;}
     74%{z-index: 3;}
-    75%{ left: 500px; z-index: 0;}
+    75%{ left: 400px; z-index: 0;}
   }
   @-moz-keyframes div1{
     24%{z-index: 0;}
-    25%{left: 1300px;z-index: 2;}
+    25%{left: 1200px;z-index: 2;}
     74%{z-index: 3;}
-    75%{ left: 500px; z-index: 0;}
+    75%{ left: 400px; z-index: 0;}
   }
   @keyframes div1{
     24%{z-index: 0;}
-    25%{left: 1300px;z-index: 2;}
+    25%{left: 1200px;z-index: 2;}
     74%{z-index: 3;}
-    75%{ left: 500px; z-index: 0;}
+    75%{ left: 400px; z-index: 0;}
   }
 
 @-webkit-keyframes orbita{
