@@ -7,7 +7,6 @@ body {
   font: 1em sans-serif;
   background: url(images/cosmos.jpg);
   background-size: cover;
-  position: relative;
 }
 
 .earth{
@@ -31,12 +30,6 @@ body {
   animation: linear 5s orbita infinite;
   z-index: 0;
 }
-.sun{
-  width: 500px;
-  position: absolute;
-  top: 50%;
-}
-
 @-webkit-keyframes orbita{
   0%{width: 72px;}
   24%{z-index: 0;}
