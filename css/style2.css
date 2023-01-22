@@ -128,3 +128,12 @@ div{
 @-webkit-keyframes sun1 {
   100%{transform: rotate(360deg);}
 }
+@-moz-keyframes sun1 {
+  100%{transform: rotate(360deg);}
+}
+@-ms-keyframes sun1 {
+  100%{transform: rotate(360deg);}
+}
+@keyframes sun1 {
+  100%{transform: rotate(360deg);}
+}
